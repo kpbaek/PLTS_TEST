@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   	<string-array name="ProductionShipmentActivity_Spinner_array">
+   	    <item>(NONE)</item>
+        <item>[Abacus]</item>
+        <item>[ACA]</item>
+        <item>Agimi</item>
+        <item>Amro</item>
+        <item>Ariannegar</item>
+        <item>Arabian Business</item>
+        <item>[ASA]</item>
+        <item>ALSALE</item>
+        <item>Baal</item>
+        <item>BiroForm</item>
+        <item>Bahrain</item>
+        <item>Bit</item>
+        <item>Banyupenta</item>
+        <item>BMW</item>        
+        <item>CCM</item>
+        <item>[CDM]</item>
+        <item>Cebit</item>
+        <item>[Ciasa]</item>
+        <item>Cauley</item>
+        <item>CMS</item>
+        <item>Cicrespi</item>
+        <item>CT Coin</item>
+        <item>Currency Tech</item>
+        <item>Ceylon</item>
+        <item>DoBest</item>
+        <item>denocard</item>
+        <item>DEMPS</item>
+        <item>Deep2000</item>
+        <item>Dynasty System</item>
+        <item>EuroCoin</item>
+        <item>Edeco</item>
+        <item>EuroKod</item>
+        <item>EuroSec</item>
+        <item>Eutron</item>
+        <item>Fongern</item>
+        <item>Feerica</item>
+        <item>Gemco</item>
+        <item>[GAMMA]</item>
+        <item>Gunnebo</item>
+        <item>[Gemsys]</item>
+        <item>Huijin</item>
+        <item>Hwasung</item>
+        <item>Iberselex</item>
+        <item>IET</item>
+        <item>ILWOO</item>
+        <item>JFC</item>
+        <item>Jove</item>
+        <item>JPT</item>
+        <item>Khurana</item>
+        <item>Kiwon</item>
+        <item>[KOTAS]</item>        
+        <item>[Ladkani]</item>
+        <item>Laurel</item>
+        <item>Microban</item>
+        <item>Mecaban</item>
+        <item>Mohammed</item>
+        <item>Mile</item>
+        <item>MLS</item>
+        <item>MoneyMatic</item>
+        <item>Moneytronic</item>
+        <item>Moneypoint</item>
+        <item>MRC</item>
+        <item>[Master Team]</item>
+        <item>Mustafa Sultan</item>
+        <item>NBS</item>
+        <item>OR-OZ</item>
+        <item>Pacific</item>
+        <item>[PageAuto]</item>
+        <item>Plenus</item>
+        <item>Ronforia</item>
+        <item>Riyadh House</item>
+        <item>Rosengrens</item>
+        <item>Salis Terra</item>
+        <item>ScanCoin</item>
+        <item>ScanEuros</item>
+        <item>[SCS]</item>
+        <item>Safir</item>
+        <item>ShaSha</item>
+        <item>Seesam</item>
+        <item>[STREMA]</item>
+        <item>Sultan Internetional</item>
+        <item>Servco</item>
+        <item>TechnoStar</item>
+        <item>Theodossis</item>
+        <item>Tresmer</item>
+        <item>TTL</item>
+        <item>Technology Space</item>
+        <item>TangleWood</item>
+    </string-array>    
+</resources>

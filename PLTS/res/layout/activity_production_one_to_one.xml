@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ProductionOneToOneActivity" >
+
+    <com.sbmkorea.plts.view.DynamicTableView
+        android:id="@+id/ProductionOneToOneActivity_DynamicTableView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/bottom_bar_height"
+        android:orientation="horizontal"
+        >
+        
+    </com.sbmkorea.plts.view.DynamicTableView>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_bar_height"
+        android:layout_alignParentBottom="true" >
+        
+        <Button android:id="@+id/ProductionOneToOneActivity_done_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="@string/ProductionOneToOneActivity_done_Button"
+            android:onClick="finishProduction" />
+        
+    </RelativeLayout>
+
+</RelativeLayout>

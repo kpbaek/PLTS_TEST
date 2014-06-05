@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PLTS</string>
+    <string name="action_settings">설정</string>
+
+    <!-- BaseActivity -->
+    <string name="user_id">SBM Korea</string>
+    <string name="logout_dialogue_msg">로그 아웃하시겠습니까?</string>
+    <string name="logout_dialogue_yes">네</string>
+    <string name="logout_dialogue_no">아니요</string>
+    <string name="logout_dialogue_title">로그아웃</string>
+
+    <!-- LogInActivity -->
+    <string name="title_activity_login">로그인</string>
+    <string name="LogInActivity_login_TextView">작업자 바코드</string>
+    <string name="LogInActivity_login_Button">로그인 버튼</string>
+    <string name="LoginActivity_toastMsg_NullBarcode">작업자 바코드를 다시 입력해주세요</string>
+
+    <!-- MainActivity -->
+    <string name="MainActivity_production_Button">생산 라인</string>
+    <string name="MainActivity_repair_Button">수리 라인</string>
+    <string name="MainActivity_specChange_Button">사양 변경</string>
+    <string name="MainActivity_productHistory_Button">제품 및 부품이력 조회</string>
+    <string name="MainActivity_partHistory_Button">자재반출  조회</string>
+    <string name="MainActivity_shipmentHistory_Button">출하이력 조회</string>
+
+    <!-- ProductionMainActivity -->
+    <string name="title_activity_production_main">생산 라인</string>
+    <string name="ProductionMainActivity_oneToOneProduction_Button">단일 보고</string>
+    <string name="ProductionMainActivity_oneToManyProduction_Button">대량 보고</string>
+	<string name="ProductionMainActivity_ShipmentProduction_Button">출하 보고</string>    
+
+    <!-- for production activities -->
+    <string name="ProductionActivities_toastMsg_hasNoErrors">전송 완료</string>
+    <string name="ProductionActivities_toastMsg_hasErrors">전송을 끝내주세요</string>
+    
+    <!-- ProductionOneToOneActivity -->
+    <string name="title_activity_production_one_to_one">단일 보고</string>
+    <string name="ProductionOneToOneActivity_done_Button">종료</string>
+    <string name="ProductionOneToOneActivity_toastMsg_NullBarcode">바코드를 입력해주세요</string>
+    
+    <!-- ProductionShipmentActivity -->
+    <string name="title_activity_production_Shipment">출하 보고</string>
+    <string name="ProductionShipmentActivity_done_Button">종료</string>
+    <string name="ProductionShipmentActivity_Etc">특이사항</string>
+    <string name="ProductionShipmentActivity_Enterpriser">업체명</string>
+    <string name="ProductionShipmentActivity_toastMsg_NullBarcode">바코드를 입력해주세요</string>   
+    
+
+    <!-- ProductionOneToManyActivity -->
+    <string name="title_activity_production_one_to_many">대량 보고</string>
+    <string name="ProductionOneToManyActivity_done_Button">종료</string>
+    <string name="ProductionOneToManyActivity_INPUT_Button">입력</string>
+    <string name="ProductionOneToManyActivity_toastMsg_hasNoErrors">전송 완료</string>
+    <string name="ProductionOneToManyActivity_toastMsg_hasErrors">전송을 끝내주세요</string>
+    <string name="ProductionOneToManyActivity_toastMsg_finish">종료합니다.</string>
+    <string name="ProductionOneToManyActivity_Exprain">부품입력 완료시 제품바코드를 입력해주세요</string> 
+
+    <!-- RepairMainActivity -->
+    <string name="title_activity_repair_main">수리 라인</string>
+    <string name="RepairMainActivity_activityDesc_product_TextView">제품 바코드</string>
+    <string name="RepairMainActivity_activityDesc_part_TextView">부품 바코드</string>
+    <string name="RepairMainActivity_errortype_TextView">불량 종류</string>
+    <string name="RepairMainActivity_activityDesc_remarks_TextView">불량 내역</string>
+    <string name="RepairMainActivity_toastMsg_invalidBarcode">유효한 바코드를 입력해주세요</string>
+    <string name="ReapirMainActivity_toastMsg_NullBarcode">바코드를 입력해주세요</string>
+    <string name="ReapirMainActivity_toastMsg_Done">종료</string>
+    <string name="RepairMainActivity_status_ImageView">status image</string>
+    <string name="RepairMainActivity_done_Button">완료</string>
+
+    <!-- SpecChangeActivity -->
+    <string name="title_activity_spec_change">사양변경 이력</string>
+
+    <!-- ProductHistoryActivity -->
+    <string name="title_activity_product_history">제품이력 조회</string>
+    <string name="ProductHistoryActivity_Production_CheckBox">생산</string>
+    <string name="ProductHistoryActivity_Repair_CheckBox">수리</string>
+    <string name="ProductHistoryActivity_SpecChange_CheckBox">사양</string>
+    <string name="ProductHistoryActivity_Search_Button">검색</string>
+    <string name="ProductHistoryActivity_TaskType_TextView">유형</string>
+    <string name="ProductHistoryActivity_ProductBarcode_TextView">제품 바코드</string>
+    <string name="ProductHistoryActivity_PartBarcode_TextView">부품 바코드</string>
+    <string name="ProductHistoryActivity_TaskTime_TextView">작업 시간</string>
+    <string name="ProductHistoryActivity_Worker_TextView">작업자</string>
+    <string name="ProductHistoryActivity_Production_taskTypeText">생산</string>
+    <string name="ProductHistoryActivity_Repair_taskTypeText">수리</string>
+    <string name="ProductHistoryActivity_SpecChange_taskTypeText">사양</string>
+    
+    <!-- ShipmentHistoryActivity -->
+    <string name="title_activity_shipment_history">출하이력 조회</string>
+    <string name="ShipmentHistoryActivity_Search_Button">검색</string>
+    <string name="ShipmentHistoryActivity_Enterpriser_TextView">업체</string>
+    <string name="ShipmentHistoryActivity_ShipmentBarcode_TextView">출하 바코드</string>
+    <string name="ShipmentHistoryActivity_PartBarcode_TextView">제품 바코드</string>
+    <string name="ShipmentHistoryActivity_TaskTime_TextView">출하 시간</string>
+    <string name="ShipmentHistoryActivity_Worker_TextView">작업자</string>
+    <string name="ShipmentHistoryActivity_etc_TextView">특이사항</string> 
+	
+    <!-- PartHistoryActivity -->
+    <string name="title_activity_part_history">부품이력 조회</string>
+    
+    <!-- DynamicTableView -->
+    <string name="DT_column_id">목록 </string>
+    <string name="DT_column_product">제품 번호</string>
+    <string name="DT_column_part">부품 번호</string>
+	<string name="DT_column_shipment">출하 번호</string>
+	
+    <!-- NetworkTask -->
+    <string name="NetworkTask_alert_title">네트워크 설정</string>
+    <string name="NetworkTask_alert_msg">네트워크에 연결할 수 업습니다. 네트워크 설정 메뉴로 가시겠습니까?</string>
+    <string name="NetworkTask_alert_yes">확인</string>
+    <string name="NetworkTask_alert_no">취소</string>
+    
+</resources>

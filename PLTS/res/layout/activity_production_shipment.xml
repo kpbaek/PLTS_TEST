@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ProductionShipmentActivity" >
+
+    <com.sbmkorea.plts.view.DynamicTableView
+        android:id="@+id/ProductionShipmentActivity_DynamicTableView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/bottom_bar_height"
+        android:orientation="horizontal"
+        >
+        
+    </com.sbmkorea.plts.view.DynamicTableView>
+
+	<HorizontalScrollView
+	    android:id="@+id/scrollview"
+	    android:layout_width="fill_parent"
+	    android:layout_height="@dimen/bottom_bar_height"
+	    android:layout_alignLeft="@+id/ProductionShipmentActivity_DynamicTableView"
+	    android:layout_alignParentBottom="true"
+	    android:layout_marginBottom="18dp" >
+
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+
+	        <TextView
+	            android:id="@+id/textView1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/ProductionShipmentActivity_Etc" />
+
+	        <EditText
+	            android:id="@+id/ProductionShipmentActivity_Etc_Text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="fill_parent"
+	            android:ems="10"
+	            android:inputType="text" >
+
+	            <requestFocus />
+	        </EditText>
+	        
+	        <TextView
+	            android:id="@+id/textView2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/ProductionShipmentActivity_Enterpriser" />	        
+
+	        <Spinner
+	            android:id="@+id/ProductionShipmentActivity_Spinner_Enterpriser"
+	            android:layout_width="@dimen/barcode_EditText_width"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="21dp"
+	            android:ems="10"
+	            android:inputType="text" />
+
+	        <Button
+	            android:id="@+id/ProductionShipmentActivity_done_Button"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:onClick="finishProduction"
+	            android:text="@string/ProductionShipmentActivity_done_Button" />
+	    </LinearLayout>
+	</HorizontalScrollView>
+
+</RelativeLayout>

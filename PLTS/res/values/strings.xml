@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PLTS</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- BaseActivity -->
+    <string name="user_id">SBM Korea</string>
+    <string name="logout_dialogue_msg">Do you want to log out?</string>
+    <string name="logout_dialogue_yes">Yes</string>
+    <string name="logout_dialogue_no">No</string>
+    <string name="logout_dialogue_title">Logout</string>
+
+    <!-- LogInActivity -->
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="LogInActivity_login_TextView">Please read the user barcode.</string>
+    <string name="LogInActivity_login_Button">log in</string>
+    <string name="LoginActivity_toastMsg_NullBarcode">Worker Barcode does not exist</string>
+
+    <!-- MainActivity -->
+    <string name="MainActivity_production_Button">Production Line</string>
+    <string name="MainActivity_repair_Button">Repair Line</string>
+    <string name="MainActivity_specChange_Button">Spec Change</string>
+    <string name="MainActivity_productHistory_Button">Product History</string>
+    <string name="MainActivity_partHistory_Button">Part History</string>
+	<string name="MainActivity_shipmentHistory_Button">Shipment History</string>
+	
+    <!-- ProductionMainActivity -->
+    <string name="title_activity_production_main">ProductionMainActivity</string>
+    <string name="ProductionMainActivity_oneToOneProduction_Button">1to1 Production</string>
+    <string name="ProductionMainActivity_oneToManyProduction_Button">1toN Production</string>
+	<string name="ProductionMainActivity_ShipmentProduction_Button">Shipment Production</string>
+	
+    <!-- for production activities -->
+    <string name="ProductionActivities_toastMsg_hasNoErrors">Upload Success!</string>
+    <string name="ProductionActivities_toastMsg_hasErrors">Please finish the upload</string>
+
+    <!-- ProductionOneToManyActivity -->
+    <string name="title_activity_production_one_to_many">ProductionOneToManyActivity</string>
+    <string name="ProductionOneToManyActivity_done_Button">OK</string>
+    <string name="ProductionOneToManyActivity_INPUT_Button">INPUT</string>
+    <string name="ProductionOneToManyActivity_toastMsg_hasNoErrors">Upload Success!</string>
+    <string name="ProductionOneToManyActivity_toastMsg_hasErrors">Please finish the upload</string>
+    <string name="ProductionOneToManyActivity_toastMsg_finish">Finish!</string>
+    <string name="ProductionOneToManyActivity_Exprain">INPUT PRODUCT NUMBER</string>
+    
+    <!-- ProductionOneToOneActivity -->
+    <string name="title_activity_production_one_to_one">ProductionOneToOneActivity</string>
+    <string name="ProductionOneToOneActivity_done_Button">OK</string>
+    <string name="ProductionOneToOneActivity_toastMsg_NullBarcode">Please fill Barcodes.</string>
+
+    <!-- ProductionshipmentActivity -->
+    <string name="title_activity_production_Shipment">ProductionShipmentActivity</string>
+    <string name="ProductionShipmentActivity_done_Button">OK</string>
+    <string name="ProductionShipmentActivity_Etc">etc</string>
+    <string name="ProductionShipmentActivity_Enterpriser">Enterpriser</string>
+    <string name="ProductionShipmentActivity_toastMsg_NullBarcode">Please fill Barcodes.</string>
+    
+    <!-- RepairMainActivity -->
+    <string name="title_activity_repair_main">RepairMainActivity</string>
+    <string name="RepairMainActivity_activityDesc_product_TextView">Please read PRODUCT\S BARCODE.</string>
+    <string name="RepairMainActivity_activityDesc_part_TextView">Please read PART\S BARCODE</string>
+    <string name="RepairMainActivity_errortype_TextView">Select the type of Error</string>
+    <string name="RepairMainActivity_activityDesc_remarks_TextView">Remarks the Error</string>
+    <string name="RepairMainActivity_toastMsg_invalidBarcode">Please read VALID BARCODE</string>
+    <string name="ReapirMainActivity_toastMsg_NullBarcode">Please fill Barcodes.</string>
+    <string name="ReapirMainActivity_toastMsg_Done">Upload complete.</string>
+    <string name="RepairMainActivity_status_ImageView">status image</string>
+    <string name="RepairMainActivity_done_Button">Done</string>
+
+    <!-- SpecChangeActivity -->
+    <string name="title_activity_spec_change">SpecChangeActivity</string>
+
+    <!-- ProductHistoryActivity -->
+    <string name="title_activity_product_history">ProductHistoryActivity</string>
+    <string name="ProductHistoryActivity_Production_CheckBox">Production</string>
+    <string name="ProductHistoryActivity_Repair_CheckBox">Repair</string>
+    <string name="ProductHistoryActivity_SpecChange_CheckBox">Repair</string>
+    <string name="ProductHistoryActivity_Search_Button">Search</string>
+    <string name="ProductHistoryActivity_TaskType_TextView">Task type</string>
+    <string name="ProductHistoryActivity_ProductBarcode_TextView">Product Barcode</string>
+    <string name="ProductHistoryActivity_PartBarcode_TextView">Part Barcode</string>
+    <string name="ProductHistoryActivity_TaskTime_TextView">Task time</string>
+    <string name="ProductHistoryActivity_Worker_TextView">Worker</string>
+    <string name="ProductHistoryActivity_Production_taskTypeText">Prod</string>
+    <string name="ProductHistoryActivity_Repair_taskTypeText">Rep</string>
+    <string name="ProductHistoryActivity_SpecChange_taskTypeText">Spec</string>
+    
+    <!-- ShipmentHistoryActivity -->
+    <string name="title_activity_shipment_history">ShipmentHistoryActivity</string>
+    <string name="ShipmentHistoryActivity_Search_Button">Search</string>
+    <string name="ShipmentHistoryActivity_Enterpriser_TextView">Enter</string>
+    <string name="ShipmentHistoryActivity_ShipmentBarcode_TextView">Shipment Barcode</string>
+    <string name="ShipmentHistoryActivity_PartBarcode_TextView">Product Barcode</string>
+    <string name="ShipmentHistoryActivity_TaskTime_TextView">Task time</string>
+    <string name="ShipmentHistoryActivity_Worker_TextView">Worker</string>
+	<string name="ShipmentHistoryActivity_etc_TextView">Etc</string> 
+
+    <!-- DynamicTableView -->
+    <string name="DT_column_id">ID</string>
+    <string name="DT_column_product">product</string>
+    <string name="DT_column_part">part</string>
+    <string name="DT_column_shipment">shipment</string>
+
+    <!-- NetworkTask -->
+    <string name="NetworkTask_alert_title">Network Settings</string>
+    <string name="NetworkTask_alert_msg">Network is not enabled. Do you want to go to settings menu?</string>
+    <string name="NetworkTask_alert_yes">OK</string>
+    <string name="NetworkTask_alert_no">Cancel</string>
+    <string name="title_activity_part_history">PartHistoryActivity</string>
+
+</resources>

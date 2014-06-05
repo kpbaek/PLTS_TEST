@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+	<Button android:id="@+id/MainActivity_production_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/MainActivity_production_Button"
+        android:onClick="startProductionMainActivity"
+        />
+
+    <Button android:id="@+id/MainActivity_repair_Button"
+        android:layout_below="@id/MainActivity_production_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/MainActivity_repair_Button"
+        android:onClick="startRepairMainActivity"
+        />
+    
+    <Button android:id="@+id/MainActivity_specChange_Button"
+        android:layout_below="@id/MainActivity_repair_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/MainActivity_specChange_Button"
+        android:onClick="startSpecChangeActivity"
+        />
+    
+    <Button android:id="@+id/MainActivity_productHistory_Button"
+        android:layout_below="@id/MainActivity_specChange_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/MainActivity_productHistory_Button"
+        android:onClick="startProductHistoryActivity"
+        />
+    
+    <Button android:id="@+id/MainActivity_partHistory_Button"
+        android:layout_below="@id/MainActivity_productHistory_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/MainActivity_partHistory_Button"
+        android:onClick="startPartHistoryActivity"
+        />
+    
+    <Button android:id="@+id/MainActivity_shipmentHistory_Button"
+        android:layout_below="@id/MainActivity_partHistory_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/MainActivity_shipmentHistory_Button"
+        android:onClick="startshipmentHistoryActivity"
+        />    
+
+</RelativeLayout>

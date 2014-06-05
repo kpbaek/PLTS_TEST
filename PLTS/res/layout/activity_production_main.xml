@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ProductionMainActivity" >
+
+    <Button android:id="@+id/ProductionMainActivity_oneToOneProduction_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/ProductionMainActivity_oneToOneProduction_Button"
+        android:onClick="startProductionOneToOneActivity"
+        />
+
+    <Button android:id="@+id/ProductionMainActivity_oneToManyProduction_Button"
+        android:layout_below="@id/ProductionMainActivity_oneToOneProduction_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/ProductionMainActivity_oneToManyProduction_Button"
+        android:onClick="startProductionOneToManyActivity"
+        />
+
+    <Button android:id="@+id/ProductionMainActivity_Production_Button"
+        android:layout_below="@id/ProductionMainActivity_oneToManyProduction_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/ProductionMainActivity_ShipmentProduction_Button"
+        android:onClick="startProductionShipmentActivity"
+        />
+
+</RelativeLayout>

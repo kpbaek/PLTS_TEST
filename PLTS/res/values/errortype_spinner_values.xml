@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   	<string-array name="RepairMainActivity_errortype_Spinner_array">
+        <item>조립 불량</item>
+        <item>부품 불량</item>
+        <item>검출 불량</item>
+        <item>성능 불량</item>
+    </string-array>       	
+</resources>
